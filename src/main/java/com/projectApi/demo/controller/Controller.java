@@ -393,7 +393,7 @@ public class Controller {
         
         
         
-        if(!Objects.equals(id, pro.getId())){
+        if(!Objects.equals(id, requestpro.getData().getId())){
           return new ResponseEntity<>("Error: no coincide la id del recurso",HttpStatus.BAD_REQUEST);  
         }
         
